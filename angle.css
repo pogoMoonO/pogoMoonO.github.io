@@ -1,6 +1,7 @@
 .angle-view {
     overflow: hidden;
-    width: 600px; margin: 10px auto; border: 5px solid #CECECE;
+    margin: 10px auto; 
+    background-color: white;
 }
 .angle-view ul, #angle-view li {
     margin: 0; padding: 0;
@@ -9,8 +10,8 @@
     list-style: none;
 }
 .angle-view ul {
-    width: 600px;
-    height: 330px;
+    width: auto;
+    height: auto;
 }
 .angle-view img {
     width: 90%;
