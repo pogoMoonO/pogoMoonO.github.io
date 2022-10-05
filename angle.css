@@ -1,7 +1,6 @@
 .angle-view {
     overflow: hidden;
-    margin: 10px auto; 
-    background-color: white;
+
 }
 .angle-view ul, #angle-view li {
     margin: 0; padding: 0;
@@ -10,11 +9,12 @@
     list-style: none;
 }
 .angle-view ul {
+    background-image: url("background/prod_360.jpeg");
     width: auto;
     height: auto;
 }
 .angle-view img {
     width: 90%;
     display: block;
-    margin: 18px auto;
+
 }

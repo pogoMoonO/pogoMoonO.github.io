@@ -34,48 +34,45 @@
     </style>
   </head>
   <body>
-    <div class="container">
-      <div class="angle-view" id="angle-view3">
-        <ul>
-          <li><img src="images/1.png" alt="1" /></li>
-          <li><img src="images/2.png" alt="2" /></li>
-          <li><img src="images/3.png" alt="3" /></li>
-          <li><img src="images/4.png" alt="4" /></li>
-          <li><img src="images/5.png" alt="5" /></li>
-          <li><img src="images/6.png" alt="6" /></li>
-          <li><img src="images/7.png" alt="7" /></li>
-          <li><img src="images/8.png" alt="8" /></li>
-          <li><img src="images/9.png" alt="9" /></li>
-          <li><img src="images/10.png" alt="10" /></li>
-          <li><img src="images/11.png" alt="11" /></li>
-          <li><img src="images/12.png" alt="12" /></li>
-          <li><img src="images/13.png" alt="13" /></li>
-          <li><img src="images/14.png" alt="14" /></li>
-          <li><img src="images/15.png" alt="15" /></li>
-          <li><img src="images/16.png" alt="16" /></li>
-        </ul>
-      </div>
-
-      <script type="text/javascript">
-        $(document).ready(function () {
-          $("#angle-view1").angle({
-            speed: 1,
-            previous: ".prev-image",
-            next: ".next-image",
-          });
-          $("#angle-view2").angle({
-            speed: 20,
-          });
-          $("#angle-view3").angle({
-            speed: 3,
-            drag: true,
-          });
-          $("#angle-view4").angle({
-            speed: 4,
-          });
-        });
-      </script>
+    <div class="angle-view" id="angle-view3">
+      <ul>
+        <li><img src="images/1.png" alt="1" /></li>
+        <li><img src="images/2.png" alt="2" /></li>
+        <li><img src="images/3.png" alt="3" /></li>
+        <li><img src="images/4.png" alt="4" /></li>
+        <li><img src="images/5.png" alt="5" /></li>
+        <li><img src="images/6.png" alt="6" /></li>
+        <li><img src="images/7.png" alt="7" /></li>
+        <li><img src="images/8.png" alt="8" /></li>
+        <li><img src="images/9.png" alt="9" /></li>
+        <li><img src="images/10.png" alt="10" /></li>
+        <li><img src="images/11.png" alt="11" /></li>
+        <li><img src="images/12.png" alt="12" /></li>
+        <li><img src="images/13.png" alt="13" /></li>
+        <li><img src="images/14.png" alt="14" /></li>
+        <li><img src="images/15.png" alt="15" /></li>
+        <li><img src="images/16.png" alt="16" /></li>
+      </ul>
     </div>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#angle-view1").angle({
+          speed: 1,
+          previous: ".prev-image",
+          next: ".next-image",
+        });
+        $("#angle-view2").angle({
+          speed: 20,
+        });
+        $("#angle-view3").angle({
+          speed: 3,
+          drag: true,
+        });
+        $("#angle-view4").angle({
+          speed: 4,
+        });
+      });
+    </script>
   </body>
   <script type="text/javascript">
     var _gaq = _gaq || [];
